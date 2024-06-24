@@ -1,0 +1,20 @@
+.all{
+    display: inline-flex;
+    margin: 15px;
+}
+.container{
+    flex-wrap: wrap;
+}
+.container .all form{
+    width: fit-content;
+}
+nav form{
+    text-align: right;
+}
+nav{
+    position: fixed;
+    top: 0;
+}
+.all small .error{
+    color: red;
+}
